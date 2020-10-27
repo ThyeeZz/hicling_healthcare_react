@@ -1,0 +1,177 @@
+.sleep-item {
+  width: 20%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+
+  .wrapper {
+    width: 98%;
+    background-color: #6248A1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    .sleep-item_top {
+      height: 40%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+
+      .avater {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      .info {
+        height: 100%;
+        width: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 5px;
+
+        .info_user {
+          display: flex;
+          width: 100%;
+          height: 50%;
+          justify-content: space-between;
+          align-items: center;
+
+          .name {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+          }
+
+          .position {
+            display: flex;
+            height: 100%;
+            width: 48%;
+            align-items: center;
+            justify-content: space-between;
+
+            .position__icon {
+              width: 30%;
+              height: 80%;
+              background: url('../../assets/images/location.png') center center no-repeat;
+              background-size: contain;
+            }
+
+            .position__name {
+              width: 70%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+
+        .info_device {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+          }
+        }
+      }
+
+    }
+
+    .sleep-item_btm {
+      width: 100%;
+      height: 56%;
+      display: flex;
+      flex-direction: column;
+      color: #6248A1;
+      font-weight: bold;
+      justify-content: space-between;
+
+      .sleep-data {
+        height: 49%;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .sleep-data__icon {
+          width: 12%;
+          height: 80%;
+          background: url(../../assets/images/moon.png) center center no-repeat;
+          background-size: contain;
+        }
+
+        .sleep-data__len {
+          width: 43%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .sleep-data__fall-wake {
+          width: 43%;
+          height: 100%;
+        }
+      }
+
+      .sleep-detail {
+        height: 49%;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .sleep-detail__icon {
+          width: 12%;
+          height: 80%;
+          background: url(../../assets/images/zhexian.png) center center no-repeat;
+          background-size: contain;
+        }
+
+        .sleep-detail__deep {
+          width: 29%;
+          height: 100%;
+        }
+
+        .sleep-detail__mid {
+          width: 29%;
+          height: 100%;
+        }
+
+        .sleep-detail__week {
+          width: 29%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}

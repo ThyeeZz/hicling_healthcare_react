@@ -1,0 +1,25 @@
+.head-right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 80px;
+
+  .avatar_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .avatar {
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+}

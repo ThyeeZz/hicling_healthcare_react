@@ -1,0 +1,219 @@
+.active-item {
+  width: 20%;
+  height: 23%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: flex-start;
+
+  .wrapper {
+    width: 98%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #31424A;
+
+    .active-item_info {
+      height: 40%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .avater {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      .info {
+        height: 100%;
+        width: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 5px;
+
+        .info_user {
+          display: flex;
+          width: 100%;
+          height: 50%;
+          justify-content: space-between;
+          align-items: center;
+
+          .name {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+          }
+
+          .position {
+            display: flex;
+            height: 100%;
+            width: 48%;
+            align-items: center;
+            justify-content: space-between;
+
+            .position__icon {
+              width: 30%;
+              height: 80%;
+              background: url('../../assets/images/location.png') center center no-repeat;
+              background-size: contain;
+            }
+
+            .position__name {
+              width: 70%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+
+        .info_device {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+    .active-item_data {
+      width: 100%;
+      height: 56%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .data_top {
+        width: 100%;
+        height: 49%;
+        border: 1px solid red;
+
+        // ete 和 Thermo
+        .data-top_temp {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          background-color: #3D556D;
+          border-radius: 810x;
+
+          .icon-temp {
+            width: 12%;
+            height: 80%;
+            background: url(../../assets/images/moon.png) center center no-repeat;
+            background-size: contain;
+          }
+
+          .temp-data {
+            width: 85%;
+            display: flex;
+            
+
+          }
+        }
+
+        // aura 和 leap
+        .data-top_hr {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .hr-data {
+            height: 100%;
+            width: 49%;
+            display: flex;
+            align-items: center;
+            background-color: #3D556D;
+            border-radius: 8px;
+
+            .icon-hr {
+              width: 12%;
+              height: 80%;
+              background: url(../../assets/images/moon.png) center center no-repeat;
+              background-size: contain;
+            }
+            .data-wrapper{
+              width: 80%;
+              height: 100%;
+              display: flex;
+            }
+          }
+
+          .bp-data {
+            height: 100%;
+            width: 49%;
+            display: flex;
+            align-items: center;
+            background-color: #3D556D;
+            border-radius: 8px;
+
+            .icon-bp {
+              width: 12%;
+              height: 80%;
+              background: url(../../assets/images/moon.png) center center no-repeat;
+              background-size: contain;
+            }
+          }
+        }
+
+      }
+
+      .data_btm {
+        width: 100%;
+        height: 49%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
+
+        .sport {
+          width: 49%;
+          height: 100%;
+          background-color: #3D556D;
+          display: flex;
+          border-radius: 8px;
+
+          .sport__data{
+            width: 80%;
+            height: 100%;
+            display: flex;
+          }
+
+          .icon-step {
+            width: 12%;
+            height: 80%;
+            background: url(../../assets/images/moon.png) center center no-repeat;
+            background-size: contain;
+          }
+
+          .icon-cal {
+            width: 12%;
+            height: 80%;
+            background: url(../../assets/images/moon.png) center center no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+
+    }
+  }
+}

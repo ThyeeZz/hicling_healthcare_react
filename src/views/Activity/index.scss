@@ -1,0 +1,22 @@
+.activity{
+  width: 100%;
+  height: 100%;
+  background-color: #3D556D;
+
+  .activity_top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(184, 182, 182);
+    padding: 0 30px;
+  }
+
+  .sctivity_btm{
+    height: calc(100% - 50px);
+    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+}

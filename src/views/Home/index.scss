@@ -1,0 +1,30 @@
+.home {
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  // bottom: 0;
+  // right: 0;
+  width: 100%;
+  height: calc(100% - 65px);
+
+  .home-layout {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+
+    .home-layout-content {
+      width: calc(100% - 70px);
+      height: 100%;
+      box-sizing: border-box;
+      background-color: rgb(231, 231, 231);
+
+      .title {
+        height: 40px;
+        padding: 5px 0;
+        font-size: 20px;
+        text-align: left;
+      }
+    }
+  }
+}

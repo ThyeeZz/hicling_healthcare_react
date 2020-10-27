@@ -1,0 +1,71 @@
+.sleep {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+
+  .sleep__content {
+    height: calc(100% - 50px);
+
+  }
+
+  .sleep__average {
+    height: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+
+    .sleep_ratio-data {
+      width: 30%;
+      height: 100%;
+      padding: 10px 0;
+    }
+
+    .sleep_average-data {
+      width: 70%;
+      height: 100%;
+      padding: 0 20px;
+
+      .sleep_average-data_title {
+        height: 50px;
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+
+        p {
+          height: 40px;
+          line-height: 40px;
+
+          &:first-child {
+            margin-right: 20px;
+          }
+        }
+
+      }
+      .sleep_average-data_detail{
+        height: calc(100% - 50px);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .sleep_average-data_detail_li{
+          width: 80px;
+          height: auto;
+          img{
+            height: 60px;
+            width: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  .sleep__detail {
+    height: calc(70% - 10px);
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
